@@ -37,7 +37,8 @@ docker-compose up -d
 ```bash
 docker logs id_container
 ```
-
+![Ejemplo de imagen](evidences/jenkins2.png)
 ```bash
 docker exec id_container cat /var/jenkins_home/secrets/initialAdminPassword
 ```
+![Ejemplo de imagen](evidences/jenkins3.png)
